@@ -17,7 +17,7 @@ main {
 }
 
 body {
-  background-color: rgb(11, 11, 11);
+  background-color: rgb(0, 0, 0);
   color: #f9f9f9;
 }
 
@@ -32,6 +32,24 @@ main {
   z-index: -999;
   opacity: 0.08;
   width: 90%;
+}
+
+.element{
+    position: absolute;
+    z-index: -998;
+    opacity: 0.08;
+
+}
+
+.pistol-portal {
+  left: 100px;
+  top: 100px;
+  width: 150px;
+}
+.picle {
+    right: 100px;
+    bottom: 100px;
+    width: 150px;
 }
 
 .input-div {
@@ -61,7 +79,7 @@ input {
 }
 
 input::placeholder {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 button {
@@ -71,14 +89,12 @@ button {
   font-size: 1rem;
   transition: 0.2s ease;
   cursor: pointer;
-box-shadow: 0px 0 0 0 rgb(0, 206, 0);
-border: 1px solid green;
-
-  
+  box-shadow: 0px 0 0 0 rgb(0, 206, 0);
+  border: 1px solid green;
 }
 
 button:hover {
-    box-shadow: 0px 3px 10px 2px rgb(0, 206, 0);
+  box-shadow: 0px 3px 10px 2px rgb(0, 206, 0);
 }
 
 button:active {
