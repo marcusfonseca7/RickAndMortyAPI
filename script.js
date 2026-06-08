@@ -1,1 +1,3 @@
-inputCharacter = document.getElementById("input-character")
+inputCharacter = document.getElementById("input-character");
+
+

@@ -1,14 +1,87 @@
 /* Reset */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    background-color: rgb(11, 11, 11);
-    color: #f9f9f9;
+  background-color: rgb(11, 11, 11);
+  color: #f9f9f9;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  z-index: -999;
+  opacity: 0.08;
+  width: 90%;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-div label {
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    /* O "0.5" define a opacidade/transparência */
+    url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWY0c2hjbXU1cmR6bzFkenJlbGwxb2FiZmJzM21iaGh5aDE2bXh4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/i2tLw5ZyikSFdkeGHT/giphy.gif");
+  background-position: center;
+  background-size: 350px;
+  font-size: 1.2rem;
+  color: #f9f9f9;
+  border: 1px solid rgb(7, 109, 7);
+}
+
+input::placeholder {
+    font-size: 1.1rem;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+box-shadow: 0px 0 0 0 rgb(0, 206, 0);
+border: 1px solid green;
+
+  
+}
+
+button:hover {
+    box-shadow: 0px 3px 10px 2px rgb(0, 206, 0);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 green;
 }

@@ -1,27 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rick and Morty</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header></header>
 
     <main>
-        <div>
-            <label for="input-character">Digite o Personagem que deseja ver as informações</label>
-            <input type="text" name="input-character" id="input-character">
+      <img
+        class="background"
+        src="img/fa16514fbec646d08f51e1bd5fdc6ab5.gif"
+        alt=""
+      />
+
+      <form action="#">
+      <div class="input-div">
+          <label for="input-character"
+            >Digite o personagem que deseja ver as informações!
+          </label>
+          <input
+            type="text"
+            name="input-character"
+            id="input-character"
+            placeholder="Digite um nome"
+          />
+
+          <button type="submit" id="botao">Ver infos</button>
         </div>
+
+        <p id="1"></p>
+    </form>
     </main>
 
     <footer></footer>
 
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
