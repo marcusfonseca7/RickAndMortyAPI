@@ -69,7 +69,6 @@ input {
   border-radius: 10px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    /* O "0.5" define a opacidade/transparência */
     url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWY0c2hjbXU1cmR6bzFkenJlbGwxb2FiZmJzM21iaGh5aDE2bXh4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/i2tLw5ZyikSFdkeGHT/giphy.gif");
   background-position: center;
   background-size: 350px;
